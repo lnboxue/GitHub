@@ -27,6 +27,7 @@ public class Average {
 			nameKey.set(keyValue[0]);
 			nameInt.set(nint);
 			context.write(nameKey, nameInt);
+			
 		}
 	}
 	
